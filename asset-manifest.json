@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/project-test-wahyusetio/static/css/main.5b67af38.css",
+    "main.js": "/project-test-wahyusetio/static/js/main.4a48f3c6.js",
+    "static/js/453.5fc735ec.chunk.js": "/project-test-wahyusetio/static/js/453.5fc735ec.chunk.js",
+    "static/media/banner.jpg": "/project-test-wahyusetio/static/media/banner.7b6c31b26bb797be9fc9.jpg",
+    "static/media/logo.png": "/project-test-wahyusetio/static/media/logo.ce339ac0d23bb96e58c3.png",
+    "index.html": "/project-test-wahyusetio/index.html",
+    "main.5b67af38.css.map": "/project-test-wahyusetio/static/css/main.5b67af38.css.map",
+    "main.4a48f3c6.js.map": "/project-test-wahyusetio/static/js/main.4a48f3c6.js.map",
+    "453.5fc735ec.chunk.js.map": "/project-test-wahyusetio/static/js/453.5fc735ec.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5b67af38.css",
+    "static/js/main.4a48f3c6.js"
+  ]
+}

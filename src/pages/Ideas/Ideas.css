@@ -1,0 +1,120 @@
+/* BANNER */
+.banner {
+  width: 100%;
+  min-height: 300px;
+  overflow-y: hidden;
+  position: relative;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.banner .text {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(50, 50, 50, 0.6);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: white;
+}
+
+.banner img {
+  width: 100%;
+  position: absolute;
+}
+
+.triangle {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 15%;
+  background-color: white;
+  clip-path: polygon(0% 100%, 100% 0%, 100% 100%);
+}
+
+/* LISTS */
+.list-post .controls p {
+  margin: 0;
+}
+
+.list-post .controls .filters > * {
+  margin-left: 10px;
+}
+
+.list-post .controls .filters button {
+  color: var(--bs-body-color);
+  background-color: white;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.list-post .controls .filters .dropdown-item:active {
+  background-color: #ee6529;
+}
+
+.list-post .card {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  border-radius: 15px;
+  box-shadow: 2px 2px 9px 2px rgba(0, 0, 0, 0.1);
+  transform: scale(1);
+  transition: transform 250ms ease-in-out;
+  user-select: none;
+}
+
+.list-post .card:hover {
+  transform: scale(1.05);
+}
+
+.list-post .card img {
+  width: 100%;
+  object-fit: cover;
+  object-position: center;
+  aspect-ratio: 12/7;
+}
+
+.list-post .card .info {
+  display: flex;
+  flex-grow: 1;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+  margin: 15px;
+}
+
+.list-post .card .info h6 {
+  margin: 0;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  line-clamp: 3;
+  -webkit-box-orient: vertical;
+}
+
+.list-post .card .info p {
+  font-size: 14px;
+  text-transform: uppercase;
+  font-weight: 600;
+  color: #9c9c9c;
+  margin: 0;
+}
+
+.list-post .pagination .page-link {
+  color: var(--bs-body-color);
+  font-weight: 600;
+  border: none;
+  user-select: none;
+  border-radius: 10px;
+}
+
+.list-post .pagination .page-link:active,
+.list-post .pagination .page-link:focus,
+.list-post .pagination .page-link:hover,
+.list-post .pagination .active {
+  background-color: #ee6529;
+}

@@ -1,0 +1,38 @@
+/* HEADER */
+.navbar {
+  position: sticky;
+  top: 0;
+  width: 100%;
+  background-color: #ee6529;
+  z-index: 1;
+}
+
+.navbar img {
+  height: 75px;
+}
+
+.navbar a,
+.navbar a:link,
+.navbar a:visited {
+  display: inline-block;
+  font-weight: 600;
+  color: white !important;
+  text-decoration: none;
+  padding: 0 8px;
+  font-size: medium;
+  white-space: nowrap;
+  user-select: none;
+}
+
+.navbar a:after {
+  display: block;
+  content: "";
+  border-bottom: solid 3px white;
+  transform: scaleX(0);
+  transition: transform 250ms ease-in-out;
+}
+
+.navbar a:hover:after,
+.navbar .active:after {
+  transform: scaleX(1);
+}
